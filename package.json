@@ -1,0 +1,17 @@
+{
+  "name": "freshcart",
+  "version": "1.0.0",
+  "description": "FreshCart E-commerce Application",
+  "main": "simple-server.js",
+  "scripts": {
+    "start": "node simple-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

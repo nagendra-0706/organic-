@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <style>
+        .text { font: bold 20px sans-serif; fill: #0d6efd; }
+        .cart { fill: none; stroke: #0d6efd; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <g transform="translate(10,10)">
+        <path class="cart" d="M0,0 H20 L30,40 H80 L90,10 H30 M30,40 L25,60 H75 L70,40 M35,70 A5,5 0 1,1 35,80 A5,5 0 1,1 35,70 M65,70 A5,5 0 1,1 65,80 A5,5 0 1,1 65,70"/>
+        <text class="text" x="50" y="100" text-anchor="middle">FreshCart</text>
+    </g>
+</svg>
