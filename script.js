@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ email, password: hashedPassword })
+                body: JSON.stringify({ email, password })
             });
 
             // Properly handle response parsing
